@@ -3,7 +3,7 @@ local colors = {
 	white = "#ffffff",
 	black = "#1e1e1e",
 }
-if vim.o.background == "light" then
+if config.theme == "light" then
 	-- background colors (preserved)
 	colors.bg = config.transparent and "NONE" or "#EBFDEE"
 	colors.bgDark = "#B1D2B1"
